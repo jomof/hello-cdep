@@ -3,6 +3,8 @@
 #include <fstream>
 #include <iostream>
 
+#include <sqllite3.h>
+
 using std::ostream;
 using std::ofstream;
 using std::cout;
