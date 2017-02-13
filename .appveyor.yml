@@ -28,6 +28,7 @@ before_build:
   - cd C:\projects\hello-cdep
 
 build_script:
+  - cdep
   - mkdir build
   - cd build
   - cmake .. -GNinja
