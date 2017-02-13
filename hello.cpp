@@ -3,7 +3,7 @@
 #include <fstream>
 #include <iostream>
 
-#include <sqllite3.h>
+#include <sqlite3.h>
 
 using std::ostream;
 using std::ofstream;
