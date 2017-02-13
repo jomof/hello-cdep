@@ -31,5 +31,5 @@ build_script:
   - cdep
   - mkdir build
   - cd build
-  - cmake .. -GNinja
+  - cmake .. -GNinja -Dcdep-dependencies_DIR=.cdep/modules
   - cmake .. --build
