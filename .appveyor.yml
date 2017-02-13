@@ -1,18 +1,8 @@
-shallow_clone: true
-
-os:
-  - Visual Studio 2015 Update 2
-
 build:
   verbosity: detailed
 
 configuration:
   - Debug
-
-environment:
-  matrix:
-    - TESTS_ONLY: true
-    - EXAMPLES_ONLY: true
 
 install:
   - mkdir C:\projects\deps
