@@ -5,6 +5,8 @@ configuration:
   - Debug
 
 install:
+  - cdep
+  
   - mkdir C:\projects\deps
   - cd C:\projects\deps
   
@@ -32,7 +34,6 @@ before_build:
   - cd C:\projects\hello-cdep
 
 build_script:
-  - cdep
   - mkdir build
   - cd build
   - cmake .. -GNinja -DCMAKE_ANDROID_NDK_TOOLCHAIN_VERSION=clang -DCMAKE_ANDROID_NDK_TOOLCHAIN_DEBUG=1 -DCMAKE_SYSTEM_NAME=Android -DCMAKE_SYSTEM_VERSION=9 -DCMAKE_ANDROID_STL_TYPE=c++_shared -DCMAKE_ANDROID_NDK=C:/projects/deps/ndk/android-ndk-r13b -DCMAKE_ANDROID_ARCH_ABI=x86 -Dcdep-dependencies_DIR=.cdep/modules
