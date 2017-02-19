@@ -1,0 +1,19 @@
+# This file is automatically maintained by CDep.
+#
+#     MANUAL EDITS WILL BE LOST ON THE NEXT CDEP RUN
+#
+# This file contains a list of CDep coordinates along with the SHA256 hash of their
+# manifest file. This is to ensure that a manifest hasn't changed since the last
+# time CDep ran.
+# The recommended best practice is to check this file into source control so that
+# anyone else who builds this project is guaranteed to get the same dependencies.
+
+- coordinate: com.github.jomof:yaml-cpp:0.5.3-rev5
+  sha256: c47e5e3e0109734bac9fc738dcabe9dd8795b88744730fcf8e822318ce42929e
+- coordinate: com.github.jomof:boost:1.0.63-rev10
+  sha256: 52f1d036d846a7da17f6cbeb2594cbcaae632e2f36abeaed6ea4ed189df1a7f2
+- coordinate: com.github.jomof:sqlite:3.16.2-rev14
+  sha256: 674408a6288813c03da78756d1cfb2cce46543187d6bf4ebbd2f6f79bf814c89
+- coordinate: com.github.jomof:low-level-statistics:0.0.11
+  sha256: b9d83112d6871e8af6b1950cd00e21f710ef8c72422c65e9b939d924d3f6a1de
+
