@@ -9,7 +9,7 @@
 # anyone else who builds this project is guaranteed to get the same dependencies.
 
 - coordinate: com.github.jomof:yaml-cpp:0.5.3-rev5
-  sha256: c47e5e3e0109734bac9fc738dcabe9dd8795b88744730fcf8e822318ce42929e
+  sha256: c47e5e3e0109734bac9fc738dcabe9dd8795b88744730fcf8e822318ce42929
 - coordinate: com.github.jomof:boost:1.0.63-rev10
   sha256: 52f1d036d846a7da17f6cbeb2594cbcaae632e2f36abeaed6ea4ed189df1a7f2
 - coordinate: com.github.jomof:sqlite:3.16.2-rev14
